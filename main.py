@@ -6,7 +6,7 @@ import random
 class Game:
     def __init__(self): 
         # initialize game window, etc
-        pg.init()
+        pg.init() 
         pg.mixer.init()
         self.screen = pg.display.set_mode((WIDTH,HEIGHT))
         pg.display.set_caption("TITLE")
